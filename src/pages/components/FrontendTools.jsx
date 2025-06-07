@@ -1,7 +1,8 @@
 import { FaHtml5, FaReact } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiMui, SiVite } from "react-icons/si";
+import { SiMui} from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
 
 export default function FrontendTools() {
     return (
@@ -39,7 +40,7 @@ export default function FrontendTools() {
             </div>
             <div className="tech-stack">
                 <div className="tech-stack-icon">
-                    <FaHtml5 />
+                    <FaBootstrap />
                 </div>
                 <p className="tech-stack-name">Bootstrap</p>
             </div>

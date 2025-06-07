@@ -28,6 +28,8 @@ breakpoints to em
 give social links proper href's
 mini animations
 dark mode | cover image change
+write about section
+write get intouch section
 
 setting up projects
  projects to add
