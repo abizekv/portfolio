@@ -35,9 +35,17 @@ setting up projects
  3 tenzies
  4 react todo
  5 random quotes
+
+ ---
  
- age calculator app
+age calculator app
+todo
+
  pricing panel
  museum of candy
  ping pong
  product card
+
+ <!-- mockup links -->
+
+[age-calculator-app](https://www.minimalmockups.com/mockup/iphone-and-ipad-mockup-01/)

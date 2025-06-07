@@ -7,12 +7,12 @@ export default function SecondaryNavbar({ selectTab, activeTab }) {
                 onClick={() => selectTab('projects')}>
                 <span className="text">Projects</span>
             </button>
-
             <button
-                className={clsx('nav-button', activeTab === 'education' && 'selected')}
-                onClick={() => selectTab('education')}
-            ><span className="text">Education</span>
+                className={clsx('nav-button', activeTab === 'skills' && 'selected')}
+                onClick={() => selectTab('skills')}>
+                <span className="text">Skills</span>
             </button>
+
             <button
                 className={clsx('nav-button', activeTab === 'about' && 'selected')}
                 onClick={() => selectTab('about')}><span className="text">About</span></button>

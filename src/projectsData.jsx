@@ -1,6 +1,10 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap } from "react-icons/fa6";
 import mockup from "./assets/project-imgs/mockup.jpg"
-import yelpcamp from "./assets/project-imgs/yelpcamp.jpg"
+import yelpCamp from "./assets/project-imgs/yelpcamp.jpg"
+import assemblyEndGame from "./assets/project-imgs/assembly-endgame.jpg"
+import tenzies from "./assets/project-imgs/tenzies.jpg"
+import randomQuotes from "./assets/project-imgs/random-quotes.jpg"
+import ageCalculatorApp from "./assets/project-imgs/age-calculator-app.jpg"
 const stacks = {
     html: {
         name: "HTML",
@@ -34,8 +38,8 @@ const projectsData = [
     {
         id: 1,
         projectName: "Tic Tac Toe",
-        projectDescription: "lorem ipsum input os vs os scaling in the shipwreckage at eastern africa",
-        projectImgSrc:mockup,
+        projectDescription: "lorem ipsum input os vs os scaling in the shipwreckage at eastern africa lorem ipsum input os vs os scaling in the shipwreckage at eastern africa",
+        projectImgSrc:assemblyEndGame,
         techStacks: [
             stacks.html,
             stacks.css,
@@ -50,7 +54,46 @@ const projectsData = [
         id: 2,
         projectName: "Candy Crush ",
         projectDescription: "defeat the candy boss",
-         projectImgSrc:yelpcamp,
+         projectImgSrc:yelpCamp,
+        techStacks: [
+            stacks.html,
+            stacks.css,
+            stacks.javascript,
+            stacks.react,
+
+        ]
+    },
+    {
+        id: 3,
+        projectName: "Candy Crush ",
+        projectDescription: "defeat the candy boss",
+         projectImgSrc:tenzies,
+        techStacks: [
+            stacks.html,
+            stacks.css,
+            stacks.javascript,
+            stacks.react,
+
+        ]
+    },
+    {
+        id: 4,
+        projectName: "Candy Crush ",
+        projectDescription: "defeat the candy boss",
+         projectImgSrc:randomQuotes,
+        techStacks: [
+            stacks.html,
+            stacks.css,
+            stacks.javascript,
+            stacks.react,
+
+        ]
+    },
+    {
+        id: 5,
+        projectName: "Age Calculator App",
+        projectDescription: "defeat the candy boss",
+         projectImgSrc:ageCalculatorApp,
         techStacks: [
             stacks.html,
             stacks.css,

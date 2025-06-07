@@ -26,10 +26,16 @@ img {
 
     --clr-white-100: #fff;
     --clr-white-200: #f1f5f9;
+    --clr-grey-250: #d1d8e0;
     --clr-grey-300: #d4d4d4;
     --clr-grey-400: #bfbfbf;
+    --clr-grey-500: #9ca3af;
+    --clr-grey-550: #666;
+    --clr-grey-600: #404b57;
     --clr-black-700: #404040;
     --clr-primary: #0866ff;
+
+
 
     /* section card styles*/
 
@@ -38,17 +44,19 @@ img {
     --box-sd: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
-div#root {
-    max-width: 95%;
-    margin: 1.5rem auto;
-}
-
 body {
     background-color: var(--clr-white-200);
-    /* remove this */
-    height: 100vh;
     font-family: var(--ff-inter);
+    padding:1.5rem 0 7rem;
 }
+
+div#root {
+    width: 95%;
+ margin: 0 auto; 
+    max-width: 60rem;
+}
+
+
 
 /* utils */
 .btn {
@@ -123,12 +131,14 @@ header {
     border-radius: 50%;
     position: absolute;
     background-color: rgb(139, 139, 139);
-    overflow:hidden;
+    overflow: hidden;
 }
-.profile-img-wrapper img{
-    height:100%;
-    object-fit:cover;
+
+.profile-img-wrapper img {
+    height: 100%;
+    object-fit: cover;
 }
+
 .profile-card-body {
     padding: 3.25rem 1rem 2rem;
 }
@@ -179,7 +189,7 @@ header {
 
 .secondary-navbar .nav-button {
     border: none;
-    background-color: inherit;
+    background-color: var(--clr-white-100);
     font-family: var(--ff-inter);
     font-size: 0.875rem;
     padding: 1.5rem 0;
@@ -195,98 +205,183 @@ header {
 
 .nav-button.selected {
     border-color: var(--clr-primary);
+    color: var(--clr-primary);
 }
 
 /* projects section */
 .projects-section {
     background-color: var(--clr-white-100);
     border-radius: var(--section-br);
-    padding: 2rem 1rem;
+    box-shadow: var(--box-sd);
+    padding: 0.5rem 1rem;
 }
 
-.project-section-title {
+.project-section-title,
+.skills-section-title {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
 }
 
 .projects-section hr {
-    border:none;
+    border: none;
     background-color: var(--clr-grey-300);
-    height:1px;
-}
-.projects-container{
-    margin-top:2.5rem;
-}
-.project-card{
-    border:1px solid var(--clr-grey-300);
-    border-radius:12px;
-    padding:1.5rem 1rem;
-    margin-bottom:2rem;
+    height: 1px;
 }
 
-.project-img{
-    height:155px;
-    object-fit:cover;
-    border-radius:0.5rem;
-    margin-bottom:2rem;
+.projects-container {
+    margin-top: 2.5rem;
 }
-.project-title{
-    margin-bottom:1rem;
+
+.project-card {
+    border: 1px solid var(--clr-grey-300);
+    border-radius: 12px;
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
 }
-.project-description{
-    line-height:1.5;
-    margin-bottom:1rem;
+
+.project-img {
+    height: 155px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
 }
-.project-tech-stacks-container{
-    display:flex;
-    flex-wrap:wrap;
-    gap:0.5rem;
-    margin-bottom:1.5rem;
+
+.project-title {
+    margin-bottom: 1rem;
 }
-.project-tech-stacks-container .tech-stack{
-    border:1px solid var(--clr-grey-300);
-    display:inline-flex;
-    align-items:center;
-    gap:0.5rem;
-    font-weight:500;
-    border-radius:0.5em;
-    padding:0.3em 0.6em;
+
+.project-description {
+    line-height: 1.5;
+    margin-bottom: 1rem;
 }
+
+.project-tech-stacks-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-tech-stacks-container .tech-stack {
+    border: 1px solid var(--clr-grey-300);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    border-radius: 0.5em;
+    padding: 0.3em 0.6em;
+}
+
 .project-links {
-    display:flex;
-    gap:0.5rem;
-    flex-wrap:wrap;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
 }
-.project-links a{
-border:1px solid black;
-border-radius:0.5em;
-padding:0.6em;
-flex-grow:1;
-display:flex;
-align-items:center;
-justify-content:center;
-gap:0.5rem 1rem;
-color:var(--clr-white-100);
+
+.project-links a {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem 1rem;
+    color: var(--clr-white-100);
 }
-.project-links .view-code{
-background-color:var(--clr-black-700);
-font-weight:500;
+
+.project-links .view-code {
+    background-color: var(--clr-black-700);
+    font-weight: 500;
 }
-.project-links .see-project{
-background-color:var(--clr-primary);
-font-weight:500;
+
+.project-links .see-project {
+    background-color: var(--clr-primary);
+    font-weight: 500;
 }
-@media(min-width:745px){
-    .project-card{
-        display:flex;
-        align-items:center;
-    gap:1rem;
+
+/* skills section */
+.skills-section {
+    background-color: var(--clr-white-100);
+    border-radius: var(--section-br);
+    box-shadow: var(--box-sd);
+    padding: 2.5rem 1rem;
+
+}
+
+.skills-section-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+    width:90%;
+    margin-inline:auto;
+    max-width:400px;
+}
+
+.skills-section-navbar .nav-button {
+    color: var(--clr-grey-500);
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid transparent;
+}
+
+.skills-section-navbar .nav-button:hover {
+    color: var(--clr-primary);
+    border-color: var(--clr-primary);
+}
+
+.skills-section .tech-stack-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width:85%;
+    margin-inline:auto;
+}
+
+.skills-section .tech-stack {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.skills-section .tech-stack-icon {
+    color: var(--clr-grey-600);
+    line-height: 0;
+    font-size: 1.7rem;
+    background-color: var(--clr-grey-250);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills-section .tech-stack-name {
+    color: var(--clr-grey-550);
+    text-align: center;
+}
+
+
+
+/* media queries */
+@media(min-width:745px) {
+    .project-card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
-   
-    .project-img{
-      height:auto;
-       flex-basis:300px;
-       margin:0;
-       border-radius:0.5rem;
+
+    .project-img {
+        height: auto;
+        flex-basis: 300px;
+        margin: 0;
+        border-radius: 0.5rem;
+        flex-shrink: 0;
+    }
+
+    .card-body {
+        flex-grow: 1;
+    }
+
+    .secondary-navbar .nav-button {
+        font-size: 1rem;
     }
 }

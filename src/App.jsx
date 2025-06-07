@@ -5,9 +5,9 @@ import SecondaryNavbar from './SecondaryNavbar'
 import { useState } from 'react'
 // Pages
 import Projects from './pages/Projects'
-import Education from './pages/Education'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Skills from './pages/Skills'
 function App() {
   const [activeTab, setActiveTab] = useState('projects')
 
@@ -24,7 +24,7 @@ function App() {
       />
       
       {activeTab === 'projects' && <Projects />}
-      {activeTab === 'education' && <Education />}
+      {activeTab === 'skills' && <Skills />}
       {activeTab === 'about' && <About />}
       {activeTab === 'contact' && <Contact />}
     </>
