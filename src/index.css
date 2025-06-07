@@ -196,17 +196,9 @@ header {
     border-bottom: 2px solid transparent;
     cursor: pointer;
     transition: 0.1s all ease-out;
-    transform: scale(1)
 }
 
-.nav-button:hover {
-    color: var(--clr-primary);
-}
 
-.nav-button.selected {
-    border-color: var(--clr-primary);
-    color: var(--clr-primary);
-}
 
 /* projects section */
 .projects-section {
@@ -320,13 +312,25 @@ header {
 
 .skills-section-navbar .nav-button {
     color: var(--clr-grey-500);
-    padding-bottom: 0.5em;
+    border: none;
+    background-color: var(--clr-white-100);
+    font-family: var(--ff-inter);
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
     border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.1s all ease-out;
 }
 
-.skills-section-navbar .nav-button:hover {
+
+ 
+.nav-button:hover {
     color: var(--clr-primary);
+}
+
+.nav-button.selected {
     border-color: var(--clr-primary);
+    color: var(--clr-primary);
 }
 
 .skills-section .tech-stack-container {
