@@ -28,6 +28,7 @@ breakpoints to em
 give social links proper href's
 mini animations
 dark mode | cover image change
+
 setting up projects
  projects to add
  1 Yelpcamp
