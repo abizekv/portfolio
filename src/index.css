@@ -47,12 +47,12 @@ img {
 body {
     background-color: var(--clr-white-200);
     font-family: var(--ff-inter);
-    padding:1.5rem 0 7rem;
+    padding: 1.5rem 0 7rem;
 }
 
 div#root {
     width: 95%;
- margin: 0 auto; 
+    margin: 0 auto;
     max-width: 60rem;
 }
 
@@ -201,20 +201,26 @@ header {
 
 
 /* projects section */
-.projects-section {
+.projects-section,
+.about-section,
+.contact-section {
     background-color: var(--clr-white-100);
     border-radius: var(--section-br);
     box-shadow: var(--box-sd);
-    padding: 0.5rem 1rem;
+    padding: 2rem 1.5rem 2.5rem;
 }
 
 .project-section-title,
-.skills-section-title {
+.skills-section-title,
+.about-section-title,
+.contact-section-title {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
 }
 
-.projects-section hr {
+.projects-section hr,
+.about-section hr,
+.contact-section hr {
     border: none;
     background-color: var(--clr-grey-300);
     height: 1px;
@@ -305,9 +311,9 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2.5rem;
-    width:90%;
-    margin-inline:auto;
-    max-width:400px;
+    width: 90%;
+    margin-inline: auto;
+    max-width: 400px;
 }
 
 .skills-section-navbar .nav-button {
@@ -323,7 +329,7 @@ header {
 }
 
 
- 
+
 .nav-button:hover {
     color: var(--clr-primary);
 }
@@ -335,17 +341,17 @@ header {
 
 .skills-section .tech-stack-container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    width:85%;
-    margin-inline:auto;
+    width: 85%;
+    margin-inline: auto;
 }
 
 .skills-section .tech-stack {
     display: flex;
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skills-section .tech-stack-icon {
@@ -363,7 +369,12 @@ header {
     text-align: center;
 }
 
-
+/* about section */
+.about-section-text,
+.contact-section-text {
+    line-height: 1.5em;
+    margin-top: 1.25rem;
+}
 
 /* media queries */
 @media(min-width:745px) {
