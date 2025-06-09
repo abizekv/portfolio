@@ -35,6 +35,7 @@ breakpoints to em ✅
 give social links proper href's ✅
 dark mode ✅
 create a private resume instance
+add resume link
 #### nice to have
 mini animations
 
@@ -42,17 +43,19 @@ mini animations
 
 setting up projects
  projects to add
- 1 Yelpcamp✅
- 2 Assembly endgame ✅
- 3 tenzies ✅
- 4 react todo ✅
- 5 random quotes ✅
+ Yelpcamp✅
+ Assembly endgame ✅
+ tenzies ✅
+ random quotes ✅
+age calculator app ✅
+ museum of candy ✅
+react todo ✅
 
  ---
  
-age calculator app ✅
+
  pricing panel ❌
- museum of candy ✅
+
  ping pong ❌
  product card ❌
 

@@ -1,5 +1,5 @@
 import { IoMdEye, IoMdCode } from "react-icons/io";
-import projectImg from "../../assets/project-imgs/mockup.jpg"
+
 export default function ProjectCard(props) {
 
     const techStackElements = props.techStacks.map(ts => (
