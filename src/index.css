@@ -416,7 +416,7 @@ div#root {
 }
 
 /* media queries */
-@media(min-width:745px) {
+@media(min-width:46em) {
     .project-card {
         display: flex;
         align-items: center;

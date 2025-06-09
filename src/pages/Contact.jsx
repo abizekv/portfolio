@@ -11,10 +11,10 @@ export default function Contact() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quibusdam distinctio eum aut eligendi velit tenetur, ipsam error dolores? Optio similique suscipit ea? Suscipit aliquid ducimus ea nesciunt ipsum itaque.
             </p>
             <div className="contact-links-container">
-                <a href="" className="btn btn-secondary logo-btn">
+                <a href="mailto:abizekv@gmail.com" className="btn btn-secondary logo-btn">
                     <FaRegEnvelope />
                     Email</a>
-                <a href="" className="btn btn-secondary logo-btn">
+                <a href="https://www.linkedin.com/in/abizekv/" className="btn btn-secondary logo-btn">
                     <FaLinkedin />
                     Linkedin</a>
             </div>
