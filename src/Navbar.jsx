@@ -24,7 +24,7 @@ export default function Navbar() {
         onClick={toggleDarkMode}
         >
           
-          {isDarkMode ? <AiOutlineSun /> : <AiFillMoon />}
+          {isDarkMode ? <AiOutlineSun /> : <AiFillMoon style={{color:"#404040"}}/>}
         </button>
       </nav>
     </header>
