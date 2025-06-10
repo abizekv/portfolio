@@ -149,11 +149,12 @@ div#root {
 .profile-card-cover-wrapper {
     background-color: grey;
     height: 210px;
-    overflow:hidden;
 }
 
 .cover-img{
-    object-position:0 -200px;
+
+    height:100%;
+    object-fit:cover;
 }
 
 .profile-img-wrapper {
