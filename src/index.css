@@ -149,6 +149,11 @@ div#root {
 .profile-card-cover-wrapper {
     background-color: grey;
     height: 210px;
+    overflow:hidden;
+}
+
+.cover-img{
+    object-position:0 -200px;
 }
 
 .profile-img-wrapper {
@@ -164,8 +169,8 @@ div#root {
 }
 
 .profile-img-wrapper img {
-    height: 100%;
-    object-fit: cover;
+    object-position:7px;
+    transform:scale(1.2);
 }
 
 .profile-card-body {

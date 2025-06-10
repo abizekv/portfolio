@@ -27,8 +27,8 @@ navbar
 #### crucial
 write about section
 write get intouch section
-give proper img alt
-compress images
+give proper img alt✅
+compress images ✅
 put the cover image and dp
 #### important
 breakpoints to em ✅
@@ -36,8 +36,11 @@ give social links proper href's ✅
 dark mode ✅
 create a private resume instance
 add resume link
+add copyright@2025
 #### nice to have
+persistent dark mode
 mini animations
+a show page for each projects which uses my github readme
 
 
 

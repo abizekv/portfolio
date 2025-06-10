@@ -1,13 +1,15 @@
 import { FaLinkedin, FaGithubSquare, FaTwitterSquare, FaRegEnvelope } from "react-icons/fa";
 import { IoDocumentTextOutline } from "react-icons/io5";
+import profileBanner from "./assets/profile-imgs/profile-banner.jpeg";
+import profileImg from "./assets/profile-imgs/profile-img.png"
 export default function ProfileCard() {
     return (
         <section className="profile-card">
             <div className="profile-card-cover-wrapper">
-                <img src={null} alt="" className="cover-img" />
+                <img src={profileBanner} alt="profile banner image" className="cover-img" />
             </div>
             <div className="profile-img-wrapper">
-                <img src={null} alt="" />
+                <img src={profileImg} alt="Abhishek's profile picture" />
             </div>
             <div className="profile-card-body">
                 <div className="profile-bio">
