@@ -6,9 +6,7 @@ export default function Contact() {
             <h2 className="contact-section-title">📲 Get in touch</h2>
             <hr />
             <p className="contact-section-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit officia et dolores natus architecto minus, quia consequatur, debitis repellat expedita laudantium deserunt repudiandae ipsum, maxime quo eum doloribus quam?
-                <br /> <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quibusdam distinctio eum aut eligendi velit tenetur, ipsam error dolores? Optio similique suscipit ea? Suscipit aliquid ducimus ea nesciunt ipsum itaque.
+                Feel free to reach out if you’d like to connect, collaborate, or just talk tech. I’m always happy to chat!
             </p>
             <div className="contact-links-container">
                 <a href="mailto:abizekv@gmail.com" className="btn btn-secondary logo-btn">
