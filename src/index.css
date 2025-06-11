@@ -434,8 +434,8 @@ div#root {
     }
 
     .project-img {
-        height: auto;
-        flex-basis: 300px;
+        height:100%;
+        max-width: 300px;
         margin: 0;
         border-radius: 0.5rem;
         flex-shrink: 0;
