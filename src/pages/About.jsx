@@ -1,4 +1,4 @@
-export default function About(){
+export default function About() {
     return (
         <section className="about-section">
             <h2 className="about-section-title">
@@ -6,9 +6,9 @@ export default function About(){
             </h2>
             <hr />
             <p className="about-section-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos laboriosam facilis vero deserunt architecto nisi, modi dolore? Laborum autem aperiam ea dicta amet iure consequatur voluptates perspiciatis enim ratione. 
-                <br /><br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat earum tempora maiores sunt, maxime hic veritatis amet possimus consequatur quam ratione, autem aliquam consequuntur dolor voluptatem. Sequi ratione aperiam modi.     
+                Hi, I’m Abhishek — an aspiring full-stack developer from Kerala with a background in mathematics and a strong passion for technology. Over the past few months, I’ve been actively building projects that have helped me grow as a developer and gain hands-on experience with both frontend and backend tools.
+<br /> <br />
+                I’m currently looking for opportunities to work on real-world projects, collaborate with other developers, and continue learning every day. I’m excited to contribute, grow, and be part of a team where I can turn ideas into impactful solutions.
             </p>
         </section>
     )
