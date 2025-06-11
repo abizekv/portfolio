@@ -35,7 +35,10 @@ export default function ProfileCard() {
                         <FaRegEnvelope />
                         Email
                     </a>
-                    <a href="https://drive.google.com/file/d/1vXIIsIMV5__ZwWoF1w33y2H_67DF7Yzy/view?usp=drive_link" className="btn btn-outline logo-btn">
+                    <a 
+                    href="https://drive.google.com/file/d/1vXIIsIMV5__ZwWoF1w33y2H_67DF7Yzy/view?usp=drive_link"
+                    target="_blank"
+                    className="btn btn-outline logo-btn">
                         <IoDocumentTextOutline />
                         Resume
                     </a>
