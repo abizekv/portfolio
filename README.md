@@ -1,5 +1,5 @@
 # 💼 Portfolio
-
+![portfolio preview](./src/assets/portfolio-preview.png)
 ## 📝 Project Description
 
 Portfolio (v2) is a modern, responsive developer portfolio built with React and Vite. It showcases my latest projects, skills, and contact information in a clean, accessible, and visually appealing layout. The site features dark mode, dynamic project cards, and a modular component structure for easy maintenance and scalability.
