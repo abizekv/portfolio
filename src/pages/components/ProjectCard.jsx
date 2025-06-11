@@ -26,11 +26,15 @@ export default function ProjectCard(props) {
                     {techStackElements}
                 </div>
                 <div className="project-links">
-                    <a href={props.sourceCodeUrl} className="view-code">
+                    <a href={props.sourceCodeUrl}
+                        target="_blank"
+                        className="view-code">
                         <IoMdCode />
                         View Code
                     </a>
-                    <a href={props.projectUrl} className="see-project">
+                    <a href={props.projectUrl}
+                        target="_blank"
+                        className="see-project">
                         <IoMdEye />
                         See Project</a>
                 </div>

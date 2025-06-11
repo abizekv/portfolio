@@ -26,12 +26,20 @@ export default function ProfileCard() {
                 </div>
 
                 <div className="profile-card-socials-group">
-                    <a href="https://www.linkedin.com/in/abizekv/" className="profile-card-social-link"><FaLinkedin /></a>
-                    <a href="https://github.com/abizekv" className="profile-card-social-link"><FaGithubSquare /></a>
-                    <a href="https://x.com/abizekv" className="profile-card-social-link"><FaTwitterSquare /></a>
+                    <a href="https://www.linkedin.com/in/abizekv/"
+                    target="_blank"
+                    className="profile-card-social-link"><FaLinkedin /></a>
+                    <a href="https://github.com/abizekv"
+                    target="_blank"
+                    className="profile-card-social-link"><FaGithubSquare /></a>
+                    <a href="https://x.com/abizekv"
+                    target="_blank"
+                    className="profile-card-social-link"><FaTwitterSquare /></a>
                 </div>
                 <div className="profile-card-contact">
-                    <a href="mailto:abizekv@gmail.com" className="btn btn-primary logo-btn">
+                    <a href="mailto:abizekv@gmail.com"
+                    target="_blank"
+                    className="btn btn-primary logo-btn">
                         <FaRegEnvelope />
                         Email
                     </a>

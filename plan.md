@@ -25,11 +25,11 @@ navbar
 
 ### todos
 #### crucial
-write about section
-write get intouch section
+write about section✅
+write get intouch section ✅
 give proper img alt✅
 compress images ✅
-put the cover image and dp
+put the cover image and dp ✅
 #### important
 breakpoints to em ✅
 give social links proper href's ✅
