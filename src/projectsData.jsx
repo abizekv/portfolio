@@ -122,7 +122,7 @@ const projectsData = [
             stacks.passportJs
         ],
         sourceCodeUrl: "https://github.com/abizekv/Yelp-Camp",
-        projectUrl: "yelp-camp-n3k4.onrender.com/"
+        projectUrl: "https://yelp-camp-n3k4.onrender.com"
     },
     {
         id: 2,
