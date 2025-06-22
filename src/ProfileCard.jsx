@@ -15,7 +15,7 @@ export default function ProfileCard() {
                 <div className="profile-bio">
                     <h1 className="profile-name">Abhishek V</h1>
                     <p className="profile-about">
-                        🧑🏻‍💻 Full Stack Developer
+                        🧑🏻‍💻 Frontend Developer
                     </p>
                     <p className="profile-about">
                         🧑🏻‍🎓 BSc Math graduate
