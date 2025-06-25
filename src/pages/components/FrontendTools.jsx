@@ -1,7 +1,8 @@
 import { FaHtml5, FaReact } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiMui} from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiMui } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 
 export default function FrontendTools() {
@@ -30,6 +31,13 @@ export default function FrontendTools() {
                     <FaReact />
                 </div>
                 <p className="tech-stack-name">React</p>
+            </div>
+
+            <div className="tech-stack">
+                <div className="tech-stack-icon">
+                    <SiTailwindcss />
+                </div>
+                <p className="tech-stack-name">Tailwind</p>
             </div>
 
             <div className="tech-stack">
