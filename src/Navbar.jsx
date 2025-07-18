@@ -5,9 +5,13 @@ export default function Navbar() {
   const [isDarkMode, setIsDarkMode] = useState(false)
   useEffect(() => {
     const root = document.documentElement
-    root.classList.toggle('dark-mode')
-  },[isDarkMode])
-  function toggleDarkMode(){
+    if (isDarkMode) {
+      root.classList.add('dark-mode')
+    } else{
+      root.classList.remove('dark-mode')
+    }
+  }, [isDarkMode])
+  function toggleDarkMode() {
     setIsDarkMode(currMode => !currMode)
   }
   return (
@@ -19,12 +23,12 @@ export default function Navbar() {
           </div>
           <span className="nav-name">Abhishek V</span>
         </div>
-        <button 
-        className="dark-mode-toggler"
-        onClick={toggleDarkMode}
+        <button
+          className="dark-mode-toggler"
+          onClick={toggleDarkMode}
         >
-          
-          {isDarkMode ? <AiOutlineSun /> : <AiFillMoon style={{color:"#404040"}}/>}
+
+          {isDarkMode ? <AiOutlineSun /> : <AiFillMoon style={{ color: "#404040" }} />}
         </button>
       </nav>
     </header>
